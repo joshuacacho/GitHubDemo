@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-26T21:19:30 PST" name="Default suite" finished-at="2021-12-26T21:19:36 PST" duration-ms="6556">
+    <groups>
+    </groups>
+    <test started-at="2021-12-26T21:19:30 PST" name="Default test" finished-at="2021-12-26T21:19:36 PST" duration-ms="6556">
+      <class name="MavenProject.FirstMavenProject.pAutomateSearchProductFuntionality">
+        <test-method is-config="true" signature="setBaseURL()[pri:0, instance:MavenProject.FirstMavenProject.pAutomateSearchProductFuntionality@4a7f959b]" started-at="2021-12-26T21:19:30 PST" name="setBaseURL" finished-at="2021-12-26T21:19:34 PST" duration-ms="3801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method signature="searchProduct()[pri:0, instance:MavenProject.FirstMavenProject.pAutomateSearchProductFuntionality@4a7f959b]" started-at="2021-12-26T21:19:34 PST" name="searchProduct" finished-at="2021-12-26T21:19:36 PST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MavenProject.FirstMavenProject.pAutomateSearchProductFuntionality@4a7f959b]" started-at="2021-12-26T21:19:36 PST" name="tearDown" finished-at="2021-12-26T21:19:36 PST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MavenProject.FirstMavenProject.pAutomateSearchProductFuntionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

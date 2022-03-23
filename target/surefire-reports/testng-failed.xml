@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Regression(failed)">
+    <classes>
+      <class name="MavenProject.FirstMavenProject.eAutomateAmazonNewsWebMenuLinks1">
+        <methods>
+          <include name="amazonPayLink"/>
+          <include name="assertAll"/>
+          <include name="setBaseURL"/>
+        </methods>
+      </class> <!-- MavenProject.FirstMavenProject.eAutomateAmazonNewsWebMenuLinks1 -->
+      <class name="MavenProject.FirstMavenProject.iAutomateUserRegistrationECommerce">
+        <methods>
+          <include name="personalInfo"/>
+          <include name="setBaseURL"/>
+          <include name="assertAll"/>
+        </methods>
+      </class> <!-- MavenProject.FirstMavenProject.iAutomateUserRegistrationECommerce -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

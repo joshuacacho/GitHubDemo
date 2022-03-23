@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 70.212 s <<< FAILURE! - in TestSuite
+amazonPayLink(MavenProject.FirstMavenProject.eAutomateAmazonNewsWebMenuLinks1)  Time elapsed: 0.791 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Amazon Pay"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'cb-mac-Cacho.local', ip: 'fe80:0:0:0:c4b:b3da:531c:938a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/lr/dbfkn51n487...}, goog:chromeOptions: {debuggerAddress: localhost:63208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 78b1c150506ad21d5c6f51635fade327
+*** Element info: {Using=link text, value=Amazon Pay}
+	at MavenProject.FirstMavenProject.eAutomateAmazonNewsWebMenuLinks1.amazonPayLink(eAutomateAmazonNewsWebMenuLinks1.java:71)
+
+personalInfo(MavenProject.FirstMavenProject.iAutomateUserRegistrationECommerce)  Time elapsed: 0.322 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#uniform-days"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'cb-mac-Cacho.local', ip: 'fe80:0:0:0:c4b:b3da:531c:938a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/lr/dbfkn51n487...}, goog:chromeOptions: {debuggerAddress: localhost:63527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c98d5c266e1c7dbb5d8c47ddf6707c9
+*** Element info: {Using=css selector, value=#uniform-days}
+	at MavenProject.FirstMavenProject.iAutomateUserRegistrationECommerce.personalInfo(iAutomateUserRegistrationECommerce.java:118)
+
