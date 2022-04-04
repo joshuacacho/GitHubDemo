@@ -72,6 +72,11 @@ public class AdminLogIn {
 			Log.error("Unsuccessful Login and Dashboard not seen");
 		}
 		
+		
+		//New developments after taking code
+		System.out.println("I made some updates son");
+		System.out.println("Coming from user x bastard. Here is your crap");
+		System.out.println("Three lines of fun");
 	}
 	
 	@AfterTest
