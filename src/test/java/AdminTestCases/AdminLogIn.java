@@ -74,9 +74,15 @@ public class AdminLogIn {
 		
 		
 		//New developments after taking code
-		//System.out.println("I made some updates son");
-		//System.out.println("Coming from user x bastard. Here is your crap");
-		//System.out.println("Three lines of fun");
+		System.out.println("I made some updates son");
+		System.out.println("Coming from user x bastard. Here is your crap");
+		System.out.println("Three lines of fun");
+		
+		
+		//Adding a couple of more changes
+			//After going back from user x to user y and back to user x
+		System.out.println("This is an example of another update");
+		System.out.println("I love doing updates son");
 	}
 	
 	@AfterTest
