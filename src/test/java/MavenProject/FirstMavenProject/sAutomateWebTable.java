@@ -111,6 +111,13 @@ public class sAutomateWebTable {
 			sa.assertEquals(finalRowCount.length, 2, "verSixthRowColumns - 6th row column value doesnt match");
 			
 		}
+		
+		@Test(priority=4)
+		public void verTheUpdateFromGit()
+		{
+			System.out.println("Our time is now son");
+			
+		}
 
 		@AfterTest
 		public void tearDown()
