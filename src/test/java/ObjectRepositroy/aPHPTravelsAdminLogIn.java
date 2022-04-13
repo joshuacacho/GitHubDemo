@@ -67,4 +67,9 @@ public class aPHPTravelsAdminLogIn {
 		return foo2();
 	}
 	
+	public WebElement AmericanTeamTime()
+	{
+		return AmericanTeamTime();
+	}
+	
 }
