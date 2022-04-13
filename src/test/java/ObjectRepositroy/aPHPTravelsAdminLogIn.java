@@ -57,4 +57,14 @@ public class aPHPTravelsAdminLogIn {
 		return loginButton;
 	}
 	
+	public WebElement foo()
+	{
+		return foo();
+	}
+	
+	public WebElement foo2()
+	{
+		return foo2();
+	}
+	
 }
